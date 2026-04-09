@@ -1,6 +1,6 @@
-# Inventory Search & Management System
+Inventory Search & Management System
 
-## 📌 Overview
+>>Overview
 
 This project allows users to search inventory items and manage supplier inventory data.
 
@@ -11,9 +11,9 @@ It consists of:
 
 ---
 
-## 🅰️ Part A: Inventory Search
+Part A: Inventory Search
 
-### Features
+*** Features
 
 * Search by product name (partial match, case-insensitive)
 * Filter by category
@@ -23,7 +23,7 @@ It consists of:
 * Shows "No results found" message
 * Input validation for invalid price ranges
 
-### Tech Used
+**** Tech Used
 
 * React (Vite)
 * Node.js + Express
@@ -38,7 +38,7 @@ Filtering is done dynamically using query parameters:
 
 ---
 
-## 🅱️ Part B: Inventory Database
+# Part B: Inventory Database
 
 ### Database Used
 
@@ -94,7 +94,7 @@ Returns inventory grouped by supplier and sorted by total value
 
 ---
 
-## ⭐ Important Query
+## Important Query
 
 Total inventory value is calculated using:
 
@@ -115,7 +115,7 @@ ORDER BY total_value DESC;
 
 ---
 
-## ⚡ Optimization Suggestion
+## Optimization Suggestion
 
 For large datasets:
 
@@ -124,25 +124,18 @@ For large datasets:
 
 ---
 
-## 🚀 How to Run
-
+## How to Run
 ### Backend
-
-```
 cd backend
 node server.js
 ```
-
 ### Frontend
-
 ```
 cd frontend
 npm run dev
 ```
 
----
-
-## 📌 Conclusion
+## Conclusion
 
 This project demonstrates:
 
